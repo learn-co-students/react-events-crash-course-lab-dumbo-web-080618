@@ -24,8 +24,6 @@ export default class ChromeBoisDomain extends Component {
    */
 
    handleResize = (event) => {
-     console.log(event)
-     console.log(event.keyCode)
      if (event.which === 65){
        resize("+")
      }else if(event.which === 83){
